@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindGeek.ImageManipulation", "MindGeek.ImageManipulation\MindGeek.ImageManipulation.csproj", "{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOutput", "ConsoleOutput\ConsoleOutput.csproj", "{E1338A47-99B9-47AA-B2F1-06B333A6130D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1338A47-99B9-47AA-B2F1-06B333A6130D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1338A47-99B9-47AA-B2F1-06B333A6130D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1338A47-99B9-47AA-B2F1-06B333A6130D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1338A47-99B9-47AA-B2F1-06B333A6130D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA4F950-6641-48F6-977D-BE61FB7E8C30}
+	EndGlobalSection
+EndGlobal
