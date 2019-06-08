@@ -25,4 +25,4 @@ How you use the framework will be highly important in the evaluation.
   - in my algorithm will avoid fetching each image more than once
   
 - I need to parse the input JSON to some C# objects
- - For this I will the Newtonsoft JSON.Net library because it has utilities to help me with all the stages of the project
+  - For this I will the Newtonsoft JSON.Net library because it has utilities to help me with all the parsing stages of the project
