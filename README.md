@@ -23,3 +23,5 @@ How you use the framework will be highly important in the evaluation.
 
 - 'To make it efficient, it is desired to only call the URLs in the JSON file only once.'
   - in my algorithm will avoid fetching each image more than once
+  
+- I need to parse the input JSON to some C# objects
