@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindGeek.ImageManipulation", "MindGeek.ImageManipulation\MindGeek.ImageManipulation.csproj", "{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindGeek.ImageManipulation", "MindGeek.ImageManipulation\MindGeek.ImageManipulation.csproj", "{627F3EDB-7D2C-417E-BD23-61D828CAF6BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOutput", "ConsoleOutput\ConsoleOutput.csproj", "{E1338A47-99B9-47AA-B2F1-06B333A6130D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOutput", "ConsoleOutput\ConsoleOutput.csproj", "{E1338A47-99B9-47AA-B2F1-06B333A6130D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
