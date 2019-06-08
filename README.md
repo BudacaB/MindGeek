@@ -26,3 +26,9 @@ How you use the framework will be highly important in the evaluation.
   
 - I need to parse the input JSON to some C# objects
   - For this I will the Newtonsoft JSON.Net library because it has utilities to help me with all the parsing stages of the project
+
+- 'Please ensure all code is tested before sending it back, it would be good to also see unit tests too.'
+  - I will add another project - 'Tests' project - used for the above library
+  
+- 'Ideally, alongside supplying the code base and all packages/libraries required to deploy, you will also have to supply deployment instructions too.'
+  - this means that after I complete the whole DLL library, I need to also create a Web API and provide deployment scripts which, when executed, upload the API to the cloud so that it can be called publicly
