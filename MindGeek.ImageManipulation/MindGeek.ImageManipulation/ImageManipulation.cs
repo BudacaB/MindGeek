@@ -10,7 +10,7 @@ namespace MindGeek.ImageManipulation
 {
     public class ImageManipulation
     {
-        public static async Task<string> Fetch(string urlToUse)
+        private static async Task<string> Fetch(string urlToUse)
         {
             using (HttpClient client = new HttpClient())
             {
@@ -26,21 +26,34 @@ namespace MindGeek.ImageManipulation
             }
         }
 
-        public static void ParseImages(string toParse)
+        private static List<Movie> ParseMovies(string toParse)
         {
-            List<Movie> movie = JsonConvert.DeserializeObject<List<Movie>>(toParse);
+            List<Movie> movies = JsonConvert.DeserializeObject<List<Movie>>(toParse);
 
-            Console.WriteLine(movie[0].cardImages[0].url); 
+            return movies;
+        }
 
-            //foreach (Images image in movie[0].cardImages)
-            //{
-            //    Console.WriteLine(image.url);
-            //}
+        public static List<string> ExtractImagesfromUrl(string urlToUse)
+        {
+            string result = Fetch(urlToUse).Result;
+
+            List<Movie> allMovies = ParseMovies(result);
+
+            List<string> cardImagesURLs = new List<string>();
+
+            foreach (Movie movie in allMovies)
+            {
+                foreach (CardImage cardImage in movie.cardImages)
+                {
+                    cardImagesURLs.Add(cardImage.url);
+                }
+            }
+            return cardImagesURLs;
         }
 
     }
 
-    public class Images
+    public class CardImage
     {
         public string url { get; set; }
         public int h { get; set; }
@@ -49,6 +62,6 @@ namespace MindGeek.ImageManipulation
 
     public class Movie
     {
-        public List<Images> cardImages { get; set; }
+        public List<CardImage> cardImages { get; set; }
     }
 }

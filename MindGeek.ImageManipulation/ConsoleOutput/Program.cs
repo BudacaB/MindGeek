@@ -18,11 +18,12 @@ namespace ConsoleOutput
 
         public static void Main()
         {
-            var result = ImageManipulation.Fetch("https://mgtechtest.blob.core.windows.net/files/showcase.json").Result;
-            //Show(result);
+            List<string> cardImages = ImageManipulation.ExtractImagesfromUrl("https://mgtechtest.blob.core.windows.net/files/showcase.json");
 
-            ImageManipulation.ParseImages(result);
-
+            foreach (string cardImage in cardImages)
+            {
+                Console.WriteLine(cardImage);
+            }
         }
     }
 
