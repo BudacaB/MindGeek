@@ -1,4 +1,4 @@
-Description of what I could achieve, and how:
+### Description of what I could achieve, and how:
 
 Created 'Mindgeek.ImageManipulation' class library.
 
