@@ -11,18 +11,13 @@ namespace ConsoleOutput
 {
     class Program
     {
-        public static void Show(string toShow)
-        {
-            Console.WriteLine(toShow);
-        }
-
         public static void Main()
         {
-            List<string> cardImages = ImageManipulation.ExtractImagesfromUrl("https://mgtechtest.blob.core.windows.net/files/showcase.json");
+            List<string> cardImagesURLs = ImageManipulation.ExtractImagesfromUrl("https://mgtechtest.blob.core.windows.net/files/showcase.json");
 
-            foreach (string cardImage in cardImages)
+            foreach (string cardImageURL in cardImagesURLs)
             {
-                Console.WriteLine(cardImage);
+                Console.WriteLine(cardImageURL);
             }
         }
     }
