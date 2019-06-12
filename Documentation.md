@@ -1,7 +1,9 @@
 Description of what I could achieve, and how:
 
 Created 'Mindgeek.ImageManipulation' class library.
+
 Created 'ConsoleOutput' console app to write output.
+
 Created 'Tests' unit test project (scaffold only).
 
 The class library contains the Movie and CardImage objects and the methods to be used:
